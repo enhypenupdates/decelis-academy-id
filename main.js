@@ -1,5 +1,4 @@
 let isFlipped = false;
-
 /*-- Download Card ------*/
 
 function downloadCard() {
@@ -49,6 +48,8 @@ function downloadCard() {
 					document.querySelector('.loading').style.display = 'none';
 				});
 		});
+
+	
 }
 
 function downloadURI(uri, name) {
@@ -64,6 +65,7 @@ function downloadURI(uri, name) {
 /*-- Flip Card ------*/
 function flipCard() {
 	var card = document.getElementById('districtCard');
+	
 	var btnFlip = document.getElementById('btnFlip');
 
 	card.classList.toggle('flip');
