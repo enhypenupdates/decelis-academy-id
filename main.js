@@ -45,8 +45,6 @@ function downloadCard() {
 					cardBack.style.transform = 'rotateY(180deg)';
 					cardBack.classList.remove('hide');
 					card.style.backgroundImage = 'none';
-					document.querySelector('#districtCard').style.display = 'block';
-					document.querySelector('.loading').style.display = 'none';
 				});
 		});
 		
