@@ -193,5 +193,5 @@ document.querySelector('#image-input').addEventListener('change', function () {
 var cleave = new Cleave('.registrationDate', {
 	date: true,
 	delimiter: '-',
-	datePattern: ['MM', 'DD', 'YYYY'],
+	datePattern: ['M', 'd', 'Y'],
 });
