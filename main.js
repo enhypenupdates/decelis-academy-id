@@ -3,8 +3,6 @@ let isFlipped = false;
 /*-- Download Card ------*/
 
 function downloadCard() {
-	document.querySelector('#districtCard').style.display = 'none';
-	document.querySelector('.loading').style.display = 'block';
 	let card = document.getElementById('districtCard');
 	let cardFront = document.getElementById('cardFront');
 	let cardBack = document.getElementById('cardBack');
@@ -47,8 +45,6 @@ function downloadCard() {
 					card.style.backgroundImage = 'none';
 				});
 		});
-		
-		
 }
 
 function downloadURI(uri, name) {
@@ -64,7 +60,6 @@ function downloadURI(uri, name) {
 /*-- Flip Card ------*/
 function flipCard() {
 	var card = document.getElementById('districtCard');
-
 	var btnFlip = document.getElementById('btnFlip');
 
 	card.classList.toggle('flip');
