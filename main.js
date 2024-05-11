@@ -1,4 +1,5 @@
 let isFlipped = false;
+
 /*-- Download Card ------*/
 
 function downloadCard() {
