@@ -3,6 +3,8 @@ let isFlipped = false;
 /*-- Download Card ------*/
 
 function downloadCard() {
+	document.querySelector('#districtCard').style.display = 'block';
+	document.querySelector('.loading').style.display = 'none';
 	let card = document.getElementById('districtCard');
 	let cardFront = document.getElementById('cardFront');
 	let cardBack = document.getElementById('cardBack');
@@ -43,6 +45,8 @@ function downloadCard() {
 					cardBack.style.transform = 'rotateY(180deg)';
 					cardBack.classList.remove('hide');
 					card.style.backgroundImage = 'none';
+					document.querySelector('#districtCard').style.display = 'block';
+					document.querySelector('.loading').style.display = 'none';
 				});
 		});
 }
