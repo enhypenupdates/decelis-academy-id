@@ -1,0 +1,273 @@
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Decelis Academy Student ID</title>
+		<link rel="shortcut icon" href="/assets/favicon.png" />
+		<link rel="stylesheet" href="/css/style.css" />
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="scale">
+				<div class="card-container">
+					<div class="card" id="districtCard">
+						<div class="card__front" id="cardFront">
+						
+							<div class="right">
+								<div class="main-image">
+									<label for="image-input"></label>
+									
+									<label
+										class="your-face"
+										id="image-form"
+										for="image-input"
+									>
+										<img
+											id="imager"
+											src="/assets/sample-picture.jpg"
+											alt="Your Image Here"
+										/>
+										<input
+											type="file"
+											id="image-input"
+											class="input-file"
+											accept=".jpg, .jpeg, .png"
+										/>
+										<p class="image-persuader">
+											SELECT PHOTO
+										</p>
+										
+									</label>
+									
+								</div>
+								<div class="form">
+									<label for="name"
+										><span>NAME</span>
+										<input
+											type="text"
+											name="name"
+											id="name"
+											placeholder="YOUR NAME"
+										/>
+									</label>
+									<label for="city"
+										><span>CITY</span>
+										<input
+											type="text"
+											name="city"
+											id="city"
+											placeholder="YOUR CITY"
+										/>
+									</label>
+									<label for="regDate"
+										><span>REGISTRATION DATE</span>
+										<input
+											type="text"
+											name="registrationDate"
+											id="registrationDate"
+											class="registrationDate"
+											placeholder="MM-DD-YYYY"
+										/>
+									</label>
+									<label for="name"
+										><span>SPECIALTY</span>
+										<input
+											type="text"
+											name="name"
+											id="name"
+											placeholder="TELEPATHY"
+										/>
+									</label>
+							</div>
+						</div>
+					</div>
+						<div class="card__back" id="cardBack">
+							<img
+								src="/assets/decelis-card-back.png"
+								alt="back"
+								id="cardBackImg"
+							/>
+						</div>
+
+					</div>
+					<div class="loading" style="display: none;">
+							<img src="./assets/enha.gif" alt="TWICE" width="250">
+						<h3>Generating your card ...</h3>	
+					</div>
+				</div>
+			</div>
+
+			<div class="btns-wrap">
+					<div class="buttons">
+					<div class="radio-group">
+						<div class="row">
+							<label for="version-jungwon" class="radio">
+								<input
+									type="radio"
+									id="version-jungwon"
+									name="color"
+									value="version-jungwon"
+									checked
+								/>
+								<p
+									class="text"
+									title="jungwon"
+									aria-label="Your City"
+								>
+									🐈 JUNGWON
+								</p>
+								<span class="circle version-jungwon"></span>
+							</label>
+
+							<label for="version-heeseung" class="radio">
+								<input
+									type="radio"
+									id="version-heeseung"
+									name="color"
+									value="version-heeseung"
+								/>
+								<p
+									class="text"
+									title="heeseung"
+									aria-label="Your City"
+								>
+									🦌 HEESEUNG
+								</p>
+								<span class="circle version-heeseung"></span>
+							</label>
+							<label for="version-jay" class="radio">
+								<input
+									type="radio"
+									id="version-jay"
+									name="color"
+									value="version-jay"
+								/>
+								<p
+									class="text"
+									title="jay"
+									aria-label="Your City"
+								>
+									🐈‍⬛ JAY
+								</p>
+								<span class="circle version-jay"></span>
+							</label>
+
+							<label for="version-jake" class="radio">
+								<input
+									type="radio"
+									id="version-jake"
+									name="color"
+									value="version-jake"
+								/>
+								<p
+									class="text"
+									title="jake"
+									aria-label="Your City"
+								>
+									🐺 JAKE
+								</p>
+								<span class="circle version-jake"></span>
+							</label>
+						</div>
+						<div class="row">
+							<label for="version-sunghoon" class="radio">
+								<input
+									type="radio"
+									id="version-sunghoon"
+									name="color"
+									value="version-sunghoon"
+								/>
+								<p
+									class="text"
+									title="sunghoon"
+									aria-label="Your City"
+								>
+									🐧 SUNGHOON
+								</p>
+								<span class="circle version-sunghoon"></span>
+							</label>
+
+							<label for="version-sunoo" class="radio">
+								<input
+									type="radio"
+									id="version-sunoo"
+									name="color"
+									value="version-sunoo"
+								/>
+								<p
+									class="text"
+									title="sunoo"
+									aria-label="Your City"
+								>
+									🦊 SUNOO
+								</p>
+								<span class="circle version-sunoo"></span>
+							</label>
+							<label for="version-ni-ki" class="radio">
+								<input
+									type="radio"
+									id="version-ni-ki"
+									name="color"
+									value="version-ni-ki"
+								/>
+								<p
+									class="text"
+									title="ni-ki"
+									aria-label="Your City"
+								>
+									🐆 NI-KI
+								</p>
+								<span class="circle version-ni-ki"></span>
+							</label>
+
+							<label for="version-enhypen" class="radio">
+								<input
+									type="radio"
+									id="version-enhypen"
+									name="color"
+									value="version-enhypen"
+								/>
+								<p class="text" title="enhypen" aria-label="All Pass">
+									🧛 ENHYPEN
+								</p>
+								<span class="circle version-enhypen"></span>
+							</label>
+						</div>
+					</div>
+				</div>
+
+				<div class="buttons main-btns">
+				
+						<button
+							class="btn btn--secondary"
+							onclick="flipCard()"
+							id="btnFlip"
+						>
+							Flip Card
+						</button>
+						<button
+							onclick="downloadCard()"
+							id="btnDownload"
+							class="btn btn--primary"
+							data-splitbee-event="Download Card"
+						>
+							<strong>Download Card</strong>
+						</button>
+				
+				</div>
+			</div>
+			
+    </main>
+
+    <footer class="footer">
+      <a href="https://www.youtube.com/watch?v=ZsP9J7AkaQo" target="_blank" data-splitbee-event="Stream ENHYPEN"><strong>MEMORABILIA</strong> by ENHYPEN</a>
+      <a href="https://twitter.com/enhypenupdates" target="_blank">Made by  <strong>ENHYPEN UPDATES</strong></a>
+    </footer>
+  </div>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/dom-to-image/2.6.0/dom-to-image.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/cleave.js/1.6.0/cleave.min.js"></script>
+		<script src="/main.js"></script>
+	</body>
+</html>
