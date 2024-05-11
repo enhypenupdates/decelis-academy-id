@@ -190,7 +190,7 @@ document.querySelector('#image-input').addEventListener('change', function () {
 });
 
 /*-- Auto Format Birthday ------*/
-var cleave = new Cleave('.registrationDate', {
+var cleave = new Cleave('.regDate', {
 	date: true,
 	delimiter: '-',
 	datePattern: ['M', 'd', 'Y'],
